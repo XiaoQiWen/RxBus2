@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RxBus测试"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#333"
+        android:textSize="20sp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="10dp"
+        android:background="#cccccc"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SendBus 1005"
+        android:textColor="#333"
+        android:onClick="test1005"
+        android:background="#ccc"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SendBus 1005 (字符串)"
+        android:textColor="#333"
+        android:background="#ccc"
+        android:onClick="test1005String"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SendBus 1005 (int类型)"
+        android:textColor="#333"
+        android:background="#ccc"
+        android:onClick="test1005Int"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SendBus 1005 (Object)"
+        android:textColor="#333"
+        android:background="#ccc"
+        android:padding="10dp"
+        android:onClick="test1005Object"
+        android:layout_margin="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SendBus 1007"
+        android:textColor="#333"
+        android:background="#ccc"
+        android:padding="10dp"
+        android:onClick="test1007"
+        android:layout_margin="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SendBus 1007 (字符串)"
+        android:textColor="#333"
+        android:background="#ccc"
+        android:onClick="test1007String"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SendBus 1007 (int类型)"
+        android:textColor="#333"
+        android:background="#ccc"
+        android:padding="10dp"
+        android:onClick="test1007Int"
+        android:layout_margin="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SendBus 1007 (Object)"
+        android:textColor="#333"
+        android:background="#ccc"
+        android:onClick="test1007Object"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        />
+</LinearLayout>
